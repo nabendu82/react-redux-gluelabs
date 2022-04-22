@@ -5,6 +5,7 @@ import EggContainer from './components/EggContainer';
 import HookEggContainer from './components/HookEggContainer';
 import HookChickenContainer from './components/HookChickenContainer';
 import NewEggContainer from './components/NewEggContainer';
+import UserContainer from './components/UserContainer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <HookEggContainer />
         <HookChickenContainer />
         <NewEggContainer />
+        <UserContainer />
       </Provider>
     </div>
   );
